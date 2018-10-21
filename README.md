@@ -1,8 +1,10 @@
 # Learning by Doing - Motivation
 
+
 ## `Planning`
 > 1. **Statistics**
 > 2. **Python**
+
 
 ## `Ideas`
 > #### Focus on problem solving
@@ -31,6 +33,7 @@
 - [ ]  https://github.com/WillKoehrsen/machine-learning-project-walkthrough/blob/master/Machine%20Learning%20Project%20Part%202.ipynb
 - [ ] https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
 
+
 ## `Inspiration`
 - `+++` [Robert Chang - Deliberate Practive](https://github.com/robert8138/python-deliberate-practice)
 - `+++` [How to land a Data Scientist job at your dream company — My journey to Airbnb](https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8)
@@ -44,6 +47,7 @@
 - [How to get into big data](http://veekaybee.github.io/2015/06/01/how-to-big-data/)
 - [So, you want to data science · Vicki Boykis](https://veekaybee.github.io/2017/06/19/data-science-myths/)
 - [the first 20 hours - how to learn anything](https://www.youtube.com/watch?v=5MgBikgcWnY)
+
 
 ## `Ressources`
 - [Python Programming An Introduction to Computer Science](https://drive.google.com/file/d/1TPHwbOPIbHG7nkpG5dB8riWNa3gk1IzI/view)
