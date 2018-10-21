@@ -1,6 +1,4 @@
-# Learning by Doing
-
-# Motivation
+# Learning by Doing - Motivation
 
 ## `Planning`
 > 1. **Statistics**
