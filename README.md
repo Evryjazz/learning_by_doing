@@ -1,22 +1,13 @@
 # Learning by Doing
---------------------
 
 # Motivation
-
-## `Goal`
-> #### Focus on problem solving
-- [x] create a leboncoin sms alerting
-- [ ] KPIs forecast with prophet + email alerting
-- [ ] price comparison between Uber / Hitch
-- [ ] lovely app / service such as throwback app
-- [ ] [matplotlib color theme](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) - [1]( http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/) - [2](https://www.dataquest.io/blog/making-538-plots/) - [3](https://matplotlib.org/users/customizing.html) - [4](http://kevinsprong.com/posts/2014/06/05/solarized-cheatsheet/)
 
 ## `Planning`
 > 1. **Statistics**
 > 2. **Python**
-> 3. **Find Product Analytics Ressources**
 
 ## `Ideas`
+> #### Focus on problem solving
 - [ ] Learning problem - How to Learn to Code?
 - [ ] Dataflow python / sql contribution?
 - [ ] leboncoin matplotlib  graph template ? (+ colors)
@@ -26,6 +17,11 @@
 - [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
 - [ ] [Stanford Python](http://stanfordpython.com/#overview)
 - [ ] Answer easy pandas question on stackoverflow
+- [x] create a leboncoin sms alerting
+- [ ] KPIs forecast with prophet + email alerting
+- [ ] price comparison between Uber / Hitch
+- [ ] lovely app / service such as throwback app
+- [ ] [matplotlib color theme](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) - [1]( http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/) - [2](https://www.dataquest.io/blog/making-538-plots/) - [3](https://matplotlib.org/users/customizing.html) - [4](http://kevinsprong.com/posts/2014/06/05/solarized-cheatsheet/)
 
 ### `toWatch`
 - [x] All Your Ducks in a Row by Brandon Rhodes
