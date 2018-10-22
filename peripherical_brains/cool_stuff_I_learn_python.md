@@ -1,6 +1,6 @@
 # `Python`
 
-###### Create on the fly list for loop:
+##### Create on the fly list for loop:
 ``` python
 for info in df.column.unique().to_list():
      do stuff
@@ -21,7 +21,7 @@ for idx, env in enumerate(env_list):
 ``` python
 $ python3 -m http.server
 ```
-###### Python 2.x
+##### Python 2.x
 ``` python
 # (This will serve the current directory at#  http://localhost:8000)
 $ python -m SimpleHTTPServer 8000
@@ -59,8 +59,9 @@ df[['metric_1', 'metric_2’]].groupby('df.dimension_1', 'df.dimension_2').df_me
 
 # `Pandas`  
 
-Enthought Python Pandas Cheat Sheets
-Best intro ever
+- [Enthought Python Pandas Cheat Sheets](https://www.evernote.com/shard/s24/res/7561ff62-c921-4ab6-9189-9d8993d6b32c)
+- [Best intro ever](https://www.youtube.com/watch?v=5JnMutdy6Fw)
+- [StackOverflow Favorites](https://stackoverflow.com/users/2505731/julienzanni?tab=favorites)
 
 
 ##### groupby nomenclature
@@ -112,6 +113,7 @@ or df_data = pd.read_csv("/path/file.csv", parse_dates=['col1', 'col2'])
 - `reset_index` > moves the index to the right out of index
 - `unstack` moves line to the top index ('up’) / stack 
 ---
+
 ##### Most efficient way to select part of a data frame
 ```python 
 df.set_index(['a', 'b']).sort_index()
@@ -123,6 +125,7 @@ ax = plt.gca()
 ax.get_yaxis().set_major_formatter(plt.FuncFormatter(lambda x, loc: "{:,}".format(int(x))))
 ```
 ---
+
 ##### Merge on right and left index
 ```python
 df_global = pd.merge(df_1, df_2, left_index=True, right_index=True)
@@ -217,25 +220,36 @@ df.loc[(df["Gender"]=="Female") & (df["Education"]=="Not Graduate") & (df["Loan_
 df.loc[(df.user_weight == 'big') | (df.user_weight == 'medium') & (df.user_type == 'browsers')]
 # must use | & not or and
 ```
-##### how to easily get same week day y-1
+##### How to easily get same week day y-1
 52*7 = 364
 day n - 364 = same week day y-1
 
-skip first raw when importing excel
+---
+##### Skip first raw when importing excel
+```python
 df_3 = pd.read_excel('contact_3.xlsx', skiprows=1)
-
-Find any text between '<' and '>
+```
+---
+#### Find any text between '<' and '>
+```python
 import re
 text = '<me@email.com>'
 re.findall(r'<(.*?)>', text)
-
-YOY evolution over time
+```
+---
+##### YOY evolution over time
+```python
 df.resample('M')[['metric ']].sum().pct_change(12)
+```
+---
+##### Datetime format apply the format and allow us to manipulate it as we want after!
 
-Datetime format apply the format and allow us to manipulate it as we want after!
+```python
 df_data.Date = pd.to_datetime(df_data.Date, format="%d/%m/%Y")    
-
-# Handy matplotlib funtions to get thousands or percentage
+```
+---
+##### Handy matplotlib funtions to get thousands or percentage
+```python
 def plt_thousand():
     # avoid scientific thousand notation + add comma between thousands for better readability
     ax = plt.gca()
@@ -245,33 +259,51 @@ def plt_percentage(df):
     # transform ylabel decimal in percentage
     ax = df
     ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: '{:.0%}'.format(y)))
-
-# no index column when creating a csv
+```
+---
+##### No index column when creating a csv
+```python
 df.to_csv('my_csv.csv', sep=';', index=False)
-
-# how to read files in a folder
+```
+---
+##### How to read files in a folder
+```python
 import os
 os.listdir(os.curdir)
-
-# delete several columns (will delete columns 1, 7, 9, 10, 11)
+```
+---
+##### Delete several columns (will delete columns 1, 7, 9, 10, 11)
+```python
 df = df.drop(df.columns[[1, 7, 9, 10, 11]], axis=1)
-
-# split column text with an argument _and_ select the second part of the split
+```
+---
+##### Split column text with an argument _and_ select the second part of the split
+```python
 df['str_obj_column'] = df['str_obj_column'].str.split('argument', expand=True)[1]
-
-# renaming multiple columns
+```
+---
+##### renaming multiple columns
+```python
 df.columns = ['colunm_1_name', ..., 'column_n_name']
-
-# index to datetime
+```
+---
+##### index to datetime
+```python
 df.index = pd.to_datetime(df.index)
-
-# insert image in text cell
+```
+---
+##### insert image in text cell
+```python
 ![title](img/image.png)
-
-# remove the first blank row when assigning index (this is caused by the name assigned to the index)
+```
+---
+##### remove the first blank row when assigning index (this is caused by the name assigned to the index)
+```python
 df.index.name=None
+```
 
-# for loops to concat df
+##### for loops to concat df
+```python
 list_nb = ['0', '1', '2']
 for i in list_nb:
     if i == '0':
@@ -285,73 +317,81 @@ for idx, i in enumerate(list_nb):
         data_agg = pd.DataFrame(data=data)
     else:
         data_agg = data_agg.append(data)
-
-# how to create a new empty dataframe
+```
+---
+##### How to create a new empty dataframe
+```python
 df = pd.DataFrame()
-
-# how to calculate % of grouped df
+```
+---
+##### How to calculate % of grouped df
+```python
 grouped_df = grouped_df.groupby('desired_column').apply(lambda x: x/x.sum() *100)
-(or float(x.sum()) )
-
-
-# how to calculate D3/D1 % from a multiIndex DF?
-
+# (or float(x.sum()) )
+```
+---
+##### how to calculate D3/D1 % from a multiIndex DF?
+```python
 df['d3vsd1'] =  df[df.columns[1]] / df[df.columns[0]] *100
 df['d3vsd1'].plot(figsize=(15,8))
 # > use df.columns[level] !
-
-# how to sort df by a specific column
+```
+---
+##### how to sort df by a specific column
+```python
 df = df.sort_values('column_to_sort')
-
-# When returning a dataframe from a function, we need to assign it to a variable in order to use it
+```
+---
+##### When returning a dataframe from a function, we need to assign it to a variable in order to use it
+```python
 def function():
     do things
      return df
 df_var = function()
-
-
-
-
-
-
-# reload packages without restarting the kernel
+```
+---
+##### reload packages without restarting the kernel
+```python
 %reload_ext autoreload
 %autoreload 2
-
-
-# Flatten hierarchical index in columns
-df.columns = df.columns.get_level_values(0)
-
-# Combine multiple index into one index
-df.columns = [' '.join(col).strip() for col in df.columns.values]
-
-
-# How to reference a link to another cell
-[link to the cell](#name-of-the-markdown-cell)
-
-
-### Selection
-# To select rows whose column value equals a scalar, some_value, use ==:
-df.loc[df['column_name'] == some_value]
-
-# To select rows whose column value is in an iterable, some_values, use isin:
-
-df.loc[df['column_name'].isin(some_values)]
-
-Combine multiple conditions with &:
-df.loc[(df['column_name'] == some_value) & df['other_column'].isin(some_values)]
-# To select rows whose column value does not equal some_value, use !=:
-df.loc[df['column_name'] != some_value]
-# isin returns a boolean Series, so to select rows whose value is not in some_values, negate the boolean Series using ~:
-df.loc[~df['column_name'].isin(some_values)]
-
-
-
+```
 ---
-
-Full table automatisation for Tableau
-StackOverflow Favorites
-
+##### Flatten hierarchical index in columns
+```python
+df.columns = df.columns.get_level_values(0)
+```
+---
+##### Combine multiple index into one index
+```python
+df.columns = [' '.join(col).strip() for col in df.columns.values]
+```
+---
+##### How to reference a link to another cell
+```python
+[link to the cell](#name-of-the-markdown-cell)
+```
+---
+### Selection
+##### To select rows whose column value equals a scalar, some_value, use ==:
+```python
+df.loc[df['column_name'] == some_value]
+```
+##### To select rows whose column value is in an iterable, some_values, use isin:
+```python
+df.loc[df['column_name'].isin(some_values)]
+```
+#####Combine multiple conditions with &:
+```python
+df.loc[(df['column_name'] == some_value) & df['other_column'].isin(some_values)]
+```
+##### To select rows whose column value does not equal some_value, use !=:
+```python
+df.loc[df['column_name'] != some_value]
+```
+##### isin returns a boolean Series, so to select rows whose value is not in some_values, negate the boolean Series using `~`:
+```python
+df.loc[~df['column_name'].isin(some_values)]
+```
 ---
 * CoolStuffILearn - unix / bash
 * CoolStuffILearn - excel
