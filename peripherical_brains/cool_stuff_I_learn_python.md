@@ -380,7 +380,7 @@ df.loc[df['column_name'] == some_value]
 ```python
 df.loc[df['column_name'].isin(some_values)]
 ```
-#####Combine multiple conditions with &:
+##### Combine multiple conditions with &:
 ```python
 df.loc[(df['column_name'] == some_value) & df['other_column'].isin(some_values)]
 ```
