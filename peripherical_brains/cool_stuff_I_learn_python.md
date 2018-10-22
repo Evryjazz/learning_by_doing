@@ -51,11 +51,10 @@ os.system("sh /opt/insight-repositories/pyLBC/reporting/concat_and_clean.sh " + 
 
 
 
-##### List comprehension
-```python
-df[['metric_1', 'metric_2’]].groupby('df.dimension_1', 'df.dimension_2').df_metrics.mean()
-```
- 
+##### [List comprehension](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
+---
+---
+
 
 # `Pandas`  
 
