@@ -392,7 +392,6 @@ df.loc[df['column_name'] != some_value]
 df.loc[~df['column_name'].isin(some_values)]
 ```
 ---
+> WIP
 * CoolStuffILearn - unix / bash
-* CoolStuffILearn - excel
-* CoolStuffILearn - tableau soft
 * CoolStuffILearn - SQL
