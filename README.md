@@ -37,6 +37,7 @@
 ## `Inspiration`
 - `+++` [Robert Chang - Deliberate Practive](https://github.com/robert8138/python-deliberate-practice)
 - `+++` [How to land a Data Scientist job at your dream company — My journey to Airbnb](https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8)
+- `+++` [Learn the Overlaps: Advice for the Aspiring Data Scientist](https://www.locallyoptimistic.com/post/ds_advice/#fnref:1)
 - [Jake Vanderplas Advice](https://twitter.com/jakevdp/status/906901174728536066)
 - [Chris Albon Answer](https://twitter.com/chrisalbon/status/890066076511371264)
 - `++` [Python progression path - From apprentice to guru](https://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru)
