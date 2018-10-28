@@ -44,6 +44,7 @@
 
 
 ## `Ressources`
+- [Personal Twitter Data List](https://twitter.com/julienzanni/lists/data)
 - [Python Programming An Introduction to Computer Science](https://drive.google.com/file/d/1TPHwbOPIbHG7nkpG5dB8riWNa3gk1IzI/view)
 - [CS for All (using python)](https://www.cs.hmc.edu/csforall/index.html)
 - [Twilio Blog Python Tag](https://www.twilio.com/blog/tag/python) 
