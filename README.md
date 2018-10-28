@@ -60,3 +60,4 @@
 - [Think Python!](http://greenteapress.com/thinkpython/html/index.html)
 - [SentDex Youtube](https://www.youtube.com/user/sentdex)
 - https://developers.google.com/machine-learning/crash-course/
+- [How to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/index.html)
