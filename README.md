@@ -2,7 +2,7 @@
 
 
 ## `Planning`
-> [Spot my weaknesses](https://towardsdatascience.com/my-weaknesses-as-a-data-scientist-1310dab9f566)
+> [Spot my weaknesses](https://towardsdatascience.com/my-weaknesses-as-a-data-scientist-1310dab9f566) and [learn the overlaps](https://www.locallyoptimistic.com/post/ds_advice/#fnref:1) throuhg [deliberate practice](https://github.com/robert8138/python-deliberate-practice) 
 > 1. **Statistics**
 > 2. **Python**
 
