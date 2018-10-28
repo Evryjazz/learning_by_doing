@@ -12,7 +12,7 @@
 - [ ] Dataflow python / sql contribution?
 - [ ] leboncoin matplotlib  graph template ? (+ colors)
 - [ ] [Jeff Knupp - Writing Idiomatic Python - Videos](https://www.youtube.com/watch?v=g0gNWGg2JxM)
-- [ ] [Jeff Knupp - Improve Your Python: Python Classes and Object Oriented Programming]
+- [ ] [Jeff Knupp - Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
 - [ ] [Loop like a native](https://www.youtube.com/watch?time_continue=14&v=EnSu9hHGq5o)
 - [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
 - [ ] [Stanford Python](http://stanfordpython.com/#overview)
