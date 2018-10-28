@@ -48,6 +48,7 @@
 - [How to get into big data](http://veekaybee.github.io/2015/06/01/how-to-big-data/)
 - [So, you want to data science · Vicki Boykis](https://veekaybee.github.io/2017/06/19/data-science-myths/)
 - [the first 20 hours - how to learn anything](https://www.youtube.com/watch?v=5MgBikgcWnY)
+- [Spot your weaknesses](https://towardsdatascience.com/my-weaknesses-as-a-data-scientist-1310dab9f566)
 
 
 ## `Ressources`
