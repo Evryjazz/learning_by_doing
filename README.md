@@ -8,20 +8,14 @@
 
 ## `Ideas`
 > #### Focus on problem solving
-- [ ] Learning problem - How to Learn to Code?
-- [ ] Dataflow python / sql contribution?
-- [ ] leboncoin matplotlib  graph template ? (+ colors)
-- [ ] [Jeff Knupp - Writing Idiomatic Python - Videos](https://www.youtube.com/watch?v=g0gNWGg2JxM)
-- [ ] [Jeff Knupp - Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
-- [ ] [Loop like a native](https://www.youtube.com/watch?time_continue=14&v=EnSu9hHGq5o)
-- [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
-- [ ] [Stanford Python](http://stanfordpython.com/#overview)
-- [ ] Answer easy pandas question on stackoverflow
 - [x] create a leboncoin sms alerting
+- [ ] Dataflow python / sql library
+- [ ] leboncoin matplotlib  graph template ? (+ colors)
+- [ ] Answer easy pandas question on stackoverflow
 - [ ] KPIs forecast with prophet + email alerting
 - [ ] price comparison between Uber / Hitch
 - [ ] lovely app / service such as throwback app
-- [ ] [matplotlib color theme](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) - [1]( http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/) - [2](https://www.dataquest.io/blog/making-538-plots/) - [3](https://matplotlib.org/users/customizing.html) - [4](http://kevinsprong.com/posts/2014/06/05/solarized-cheatsheet/)
+
 
 ### `toWatch`
 - [x] All Your Ducks in a Row by Brandon Rhodes
@@ -62,3 +56,9 @@
 - [SentDex Youtube](https://www.youtube.com/user/sentdex)
 - https://developers.google.com/machine-learning/crash-course/
 - [How to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/index.html)
+- [ ] [matplotlib color theme](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/) - [1]( http://www.futurile.net/2016/02/27/matplotlib-beautiful-plots-with-style/) - [2](https://www.dataquest.io/blog/making-538-plots/) - [3](https://matplotlib.org/users/customizing.html) - [4](http://kevinsprong.com/posts/2014/06/05/solarized-cheatsheet/)
+- [ ] [Jeff Knupp - Writing Idiomatic Python - Videos](https://www.youtube.com/watch?v=g0gNWGg2JxM)
+- [ ] [Jeff Knupp - Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+- [ ] [Loop like a native](https://www.youtube.com/watch?time_continue=14&v=EnSu9hHGq5o)
+- [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
+- [ ] [Stanford Python](http://stanfordpython.com/#overview)
