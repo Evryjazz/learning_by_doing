@@ -391,7 +391,7 @@ df.loc[df['column_name'] != some_value]
 ```python
 df.loc[~df['column_name'].isin(some_values)]
 ```
-
+---
 ##### UnicodeDecodeError when reading CSV file > ‘ISO-8859-1' is the solution
 ```python
 df = pd.read_csv('file.csv', sep=';', encoding = 'ISO-8859-1')
