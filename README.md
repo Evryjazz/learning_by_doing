@@ -3,9 +3,9 @@
 ## `Motivation`
 > [Spot my weaknesses](https://towardsdatascience.com/my-weaknesses-as-a-data-scientist-1310dab9f566) and [learn the overlaps](https://www.locallyoptimistic.com/post/ds_advice/#fnref:1) throuhg [deliberate practice](https://github.com/robert8138/python-deliberate-practice) 
 > 1. **Statistics**
->  1.1 [Practical Statistics](https://www.goodreads.com/book/show/28646693-practical-statistics-for-data-scientists?ac=1&from_search=true)
->  1.2 [Data Science From Scratch With Python](https://www.goodreads.com/book/show/40724720-data-science-from-scratch-with-python?ac=1&from_search=true)
->  1.3 [A Mathematics Course for Political and Social Research](https://www.goodreads.com/book/show/17861539-a-mathematics-course-for-political-and-social-research)
+> 1.1 [Practical Statistics](https://www.goodreads.com/book/show/28646693-practical-statistics-for-data-scientists?ac=1&from_search=true)
+> 1.2 [Data Science From Scratch With Python](https://www.goodreads.com/book/show/40724720-data-science-from-scratch-with-python?ac=1&from_search=true)
+> 1.3 [A Mathematics Course for Political and Social Research](https://www.goodreads.com/book/show/17861539-a-mathematics-course-for-political-and-social-research)
 > 2. **Python**
 
 ## `Ideas`
