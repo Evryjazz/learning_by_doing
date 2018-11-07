@@ -67,3 +67,4 @@
 - [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
 - [ ] [Stanford Python](http://stanfordpython.com/#overview)
 - [5 basics statistics concepts](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
+- [ ] [Correlation in Python](http://benalexkeen.com/correlation-in-python/)
