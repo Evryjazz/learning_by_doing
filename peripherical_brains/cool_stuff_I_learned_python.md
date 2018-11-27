@@ -51,7 +51,7 @@ os.system("sh /opt/insight-repositories/pyLBC/reporting/concat_and_clean.sh " + 
 
 ##### [List comprehension](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
 
-##### Loop over a date range and get first and last day of the week 
+##### Loop over a date range and get first and last day of the week (or the month with rrule.MONTHLY)
 ```python 
 start = date(2018, 11, 5) 
 end = date(2018, 11, 19)
