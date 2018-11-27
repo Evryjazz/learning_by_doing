@@ -49,9 +49,21 @@ os.system("sh /opt/insight-repositories/pyLBC/reporting/concat_and_clean.sh " + 
 
 ##### [Daily global retention](https://gist.github.com/Evryjazz/c426f9c2ecf5be5708aa5186f9a671c9)
 
-
-
 ##### [List comprehension](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
+
+##### Loop over a date range and get first and last day of the week 
+```python 
+start = date(2018, 11, 5) 
+end = date(2018, 11, 19)
+
+for dt in rrule.rrule(rrule.WEEKLY, dtstart=start, until=end):
+    start_date = dt.date()
+    end_date = start_date + timedelta(6)
+    
+    print(start_date)
+    print(end_date)
+```
+
 ---
 ---
 
