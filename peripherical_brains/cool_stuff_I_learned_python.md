@@ -65,6 +65,16 @@ for dt in rrule.rrule(rrule.WEEKLY, dtstart=start, until=end):
 ```
 
 ---
+##### .format() method for variable: [Template Strings](https://realpython.com/python-string-formatting/)
+```python
+from string import Template
+name = 'Bob'
+t = Template('Hey, $name!')
+t.substitute(name=name)
+>>> 'Hey, Bob!'
+```
+
+---
 ---
 
 
@@ -409,15 +419,6 @@ df.loc[~df['column_name'].isin(some_values)]
 df = pd.read_csv('file.csv', sep=';', encoding = 'ISO-8859-1')
 ```
 
----
-##### .format() method for variable: Template Strings
-```python
-from string import Template
-name = 'Bob'
-t = Template('Hey, $name!')
-t.substitute(name=name)
->>> 'Hey, Bob!'
-```
 
 
 ---
