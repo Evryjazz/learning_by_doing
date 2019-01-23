@@ -419,7 +419,13 @@ df.loc[~df['column_name'].isin(some_values)]
 df = pd.read_csv('file.csv', sep=';', encoding = 'ISO-8859-1')
 ```
 
-
+---
+##### How to put last column first
+```python
+cols = list(df.columns)
+cols = [cols[-1]] + cols[:-1]
+df = df[cols]
+```
 
 ---
 > WIP
