@@ -430,6 +430,13 @@ df = df[cols]
 ```python
 df[['neg_col_1', 'neg_col_2']] = df[['neg_col_1', 'neg_col_2']].clip_lower(0)
 ```
+---
+##### How to keep only date from datetime full format (dt.date)
+```python
+df.d_time_date = df.d_time_date.dt.date
+```
+
+
 
 ---
 > WIP
