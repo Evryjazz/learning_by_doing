@@ -418,13 +418,17 @@ df.loc[~df['column_name'].isin(some_values)]
 ```python
 df = pd.read_csv('file.csv', sep=';', encoding = 'ISO-8859-1')
 ```
-
 ---
 ##### How to put last column first
 ```python
 cols = list(df.columns)
 cols = [cols[-1]] + cols[:-1]
 df = df[cols]
+```
+---
+##### How to replace negative value with 0 (clip / clip_lower)
+```python
+df[['neg_col_1', 'neg_col_2']] = df[['neg_col_1', 'neg_col_2']].clip_lower(0)
 ```
 
 ---
