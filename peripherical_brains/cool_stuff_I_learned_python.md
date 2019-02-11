@@ -32,6 +32,11 @@ $ python -m SimpleHTTPServer 8000
 range(350, 0, -1)
 ```
 
+##### execute a python file in terminal
+``` python
+python filename.py
+```
+
 ##### How to document a function
 ```python
 def function():
