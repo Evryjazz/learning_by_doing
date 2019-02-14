@@ -440,6 +440,11 @@ df[['neg_col_1', 'neg_col_2']] = df[['neg_col_1', 'neg_col_2']].clip_lower(0)
 ```python
 df.d_time_date = df.d_time_date.dt.date
 ```
+---
+##### Set graph size when starting a new notebook
+```python
+plt.rcParams['figure.figsize'] = (17, 5)
+```
 
 
 
