@@ -58,6 +58,9 @@ os.system("sh /opt/insight-repositories/pyLBC/reporting/concat_and_clean.sh " + 
 
 ##### Loop over a date range and get first and last day of the week (or the month with rrule.MONTHLY)
 ```python 
+from datetime import datetime, timedelta, date
+from dateutil import rrule
+
 start = date(2018, 11, 5) 
 end = date(2018, 11, 19)
 
