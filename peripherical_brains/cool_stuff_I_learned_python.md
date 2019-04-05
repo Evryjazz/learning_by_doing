@@ -83,14 +83,10 @@ t.substitute(name=name)
 ```
 
 ---
-##### yesterday
+##### [yesterday](https://stackoverflow.com/questions/30483977/python-get-yesterdays-date-as-a-string-in-yyyy-mm-dd-format/30484112)
 ```python
 from datetime import datetime, timedelta
-date_start = '2016-03-03'
-date_end = '2017-01-31'
-today = time.strftime("%Y-%m-%d")
-yesterday = datetime.now() - timedelta(days=1)
-yesterday = yesterday.strftime('%Y-%m-%d')
+yesterday = datetime.strftime(datetime.now() - timedelta(1), '%Y-%m-%d')
 ```
 
 ---
