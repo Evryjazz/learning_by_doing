@@ -83,6 +83,17 @@ t.substitute(name=name)
 ```
 
 ---
+##### yesterday
+```python
+from datetime import datetime, timedelta
+date_start = '2016-03-03'
+date_end = '2017-01-31'
+today = time.strftime("%Y-%m-%d")
+yesterday = datetime.now() - timedelta(days=1)
+yesterday = yesterday.strftime('%Y-%m-%d')
+```
+
+---
 ---
 
 
