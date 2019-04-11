@@ -23,7 +23,7 @@
 
 ### `toWatch`
 - [x] All Your Ducks in a Row by Brandon Rhodes
-- [ ] List comprehension and generator expressions 
+- [x] List comprehension and generator expressions 
 - [x] How to learn data science ++ 
 
 ### `toRead`
@@ -68,3 +68,4 @@
 - [ ] [Stanford Python](http://stanfordpython.com/#overview)
 - [5 basics statistics concepts](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
 - [ ] [Correlation in Python](http://benalexkeen.com/correlation-in-python/)
+- [x] [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
