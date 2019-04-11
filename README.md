@@ -66,6 +66,6 @@
 - [ ] [Loop like a native](https://www.youtube.com/watch?time_continue=14&v=EnSu9hHGq5o)
 - [ ] [Low Class Python](http://columbia-applied-data-science.github.io/pages/lowclass-python-style-guide.html)
 - [ ] [Stanford Python](http://stanfordpython.com/#overview)
-- [5 basics statistics concepts](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
+- [x] [5 basics statistics concepts](https://towardsdatascience.com/the-5-basic-statistics-concepts-data-scientists-need-to-know-2c96740377ae)
 - [ ] [Correlation in Python](http://benalexkeen.com/correlation-in-python/)
 - [x] [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
