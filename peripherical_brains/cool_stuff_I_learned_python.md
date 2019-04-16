@@ -392,14 +392,18 @@ df_var = function()
 %autoreload 2
 ```
 ---
-##### Flatten hierarchical index in columns
+##### [Flatten hierarchical index in columns](https://stackoverflow.com/questions/14507794/pandas-how-to-flatten-a-hierarchical-index-in-columns)
 ```python
 df.columns = df.columns.get_level_values(0)
+# or
+pd.DataFrame(df.to_records()) # multiindex become columns
 ```
 ---
 ##### Combine multiple index into one index
 ```python
 df.columns = [' '.join(col).strip() for col in df.columns.values]
+# even better:
+pd.DataFrame(df.to_records()) # multiindex become columns and new index is integers only
 ```
 ---
 ##### How to reference a link to another cell
