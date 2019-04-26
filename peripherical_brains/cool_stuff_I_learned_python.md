@@ -459,8 +459,11 @@ df.d_time_date = df.d_time_date.dt.date
 ```python
 plt.rcParams['figure.figsize'] = (17, 5)
 ```
-
-
+---
+##### How to create a Y-1 column? With .shift(364) !
+```python
+df['visits_y1'] = df.visits.shift(364)
+```
 
 ---
 > WIP
