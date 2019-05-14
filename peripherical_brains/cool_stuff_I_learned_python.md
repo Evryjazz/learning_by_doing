@@ -464,6 +464,11 @@ plt.rcParams['figure.figsize'] = (17, 5)
 ```python
 df['visits_y1'] = df.visits.shift(364)
 ```
+---
+##### .plot() line width 
+```python
+df.plot(lw=1)
+```
 
 ---
 > WIP
