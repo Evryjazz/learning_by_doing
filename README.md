@@ -73,3 +73,4 @@
 - [ ] [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [ ] [Practical data science for journalists and everyone else](https://investigate.ai/)
 - [ ] Causal Impact → [Google paper](https://google.github.io/CausalImpact/CausalImpact.html) / → [python package](https://github.com/dafiti/causalimpact)
+- [ ] [The Science and Modeling of Climate Change](https://www.coursera.org/learn/global-warming)
