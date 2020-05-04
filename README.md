@@ -70,3 +70,5 @@
 - [ ] [Correlation in Python](http://benalexkeen.com/correlation-in-python/)
 - [x] [10 Python Tips and Tricks For Writing Better Code](https://www.youtube.com/watch?v=C-gEQdGVXbk)
 - [ ] http://datasciencemasters.org/
+- [ ] [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [ ] [Practical data science for journalists and everyone else](https://investigate.ai/)
